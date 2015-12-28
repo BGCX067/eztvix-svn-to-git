@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Player name="Tvix6500" label="Tvix 6500">
+    <Folder filename="folder" extension="png"/>
+    <Upfolder filename="upfolder" extension="png"/>
+    <Background filename="tvix" extension="jpg"/>
+    <IconSize width="200" height="200"/>
+  </Player>
+  <Player name="Tvix66xx" label="Tvix 66xx">
+    <Folder filename="folder" extension="jpg"/>
+    <Upfolder filename="upfolder" extension="jpg"/>
+    <Background filename="tvix" extension="jpg"/>
+    <IconSize width="138" height="186"/>
+  </Player>
+  <Player name="Tvix7000" label="Tvix 7000">
+    <Folder filename="folder" extension="png"/>
+    <Upfolder filename="upfolder" extension="png"/>
+    <Background filename="tvix" extension="jpg"/>
+  </Player>
+  <Player name="TvixS1" label="Tvix S1">
+    <Folder filename="folder" extension="jpg"/>
+    <Upfolder filename="upfolder" extension="jpg"/>
+    <Background filename="tvix" extension="jpg"/>
+    <IconSize width="138" height="186"/>
+  </Player>
+</Root>

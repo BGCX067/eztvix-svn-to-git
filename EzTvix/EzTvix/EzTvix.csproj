@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CCC27C5-7835-4F8C-9F0F-03FF21D1744E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EzTvix</RootNamespace>
+    <AssemblyName>EzTvix</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\EzTvix.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\EzTvix.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>C:\Users\Mike\Documents\Visual Studio 2010\Projects\EzTvix\EzTvix\Icon.res</Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Neodynamic.SDK.ImageDraw, Version=2.0.2000.0, Culture=neutral, PublicKeyToken=49ea6b0547247dc5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neodynamic.SDK.ImageDraw.DLL</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Players.cs" />
+    <Compile Include="frmFanartList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFanartList.Designer.cs">
+      <DependentUpon>frmFanartList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCoverList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCoverList.Designer.cs">
+      <DependentUpon>frmCoverList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFolderIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFolderIcon.Designer.cs">
+      <DependentUpon>frmFolderIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMovieList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMovieList.Designer.cs">
+      <DependentUpon>frmMovieList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.cs">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaveThemeAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaveThemeAs.Designer.cs">
+      <DependentUpon>frmSaveThemeAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageGallery.Designer.cs">
+      <DependentUpon>ImageGallery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theme\BackgroundTemplate.cs" />
+    <Compile Include="Theme\ImageTemplate.cs" />
+    <Compile Include="Theme\ItemList.cs" />
+    <Compile Include="Theme\Picto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Picto.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Theme\Template.cs" />
+    <Compile Include="Theme\ThemeTemplate.cs" />
+    <Compile Include="ThemeBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemeBuilder.Designer.cs">
+      <DependentUpon>ThemeBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Theme\ThemeInfo.cs" />
+    <Compile Include="Core\TvixInfo.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Theme\Default.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Default.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmFanartList.resx">
+      <DependentUpon>frmFanartList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCoverList.resx">
+      <DependentUpon>frmCoverList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFolderIcon.resx">
+      <DependentUpon>frmFolderIcon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMovieList.resx">
+      <DependentUpon>frmMovieList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaveThemeAs.fr.resx">
+      <DependentUpon>frmSaveThemeAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaveThemeAs.resx">
+      <DependentUpon>frmSaveThemeAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageGallery.resx">
+      <DependentUpon>ImageGallery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.fr.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ThemeBuilder.fr.resx">
+      <DependentUpon>ThemeBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme\Default\Theme.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme\Picto.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Picto.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Theme\Aqua\abac___0.TTF" />
+    <None Include="bin\Debug\Theme\Aqua\config.ini" />
+    <None Include="bin\Debug\Theme\Aqua\icon.tvix" />
+    <None Include="bin\Debug\Theme\Aqua\neutrond.ttf" />
+    <None Include="bin\Debug\Theme\Bluray\config.ini" />
+    <None Include="bin\Debug\Theme\Bluray\icon.tvix" />
+    <None Include="bin\Debug\Theme\Bluray\icones\Thumbs.db" />
+    <None Include="bin\Debug\Theme\Bluray\scoutcond.ttf" />
+    <None Include="bin\Debug\Theme\Bluray\Thumbs.db" />
+    <None Include="bin\Debug\Theme\Bluray\Video quality\Thumbs.db" />
+    <None Include="bin\Debug\Theme\Bubble\abac___0.TTF" />
+    <None Include="bin\Debug\Theme\Bubble\config.ini" />
+    <None Include="bin\Debug\Theme\Bubble\icon.tvix" />
+    <None Include="bin\Debug\Theme\Bubble\Thumbs.db" />
+    <None Include="bin\Debug\Theme\Hydro\abac___0.TTF" />
+    <None Include="bin\Debug\Theme\Hydro\config.ini" />
+    <None Include="bin\Debug\Theme\Hydro\icon.tvix" />
+    <None Include="bin\Debug\Theme\Hydro\neutrond.ttf" />
+    <None Include="bin\Debug\Theme\Hydro\Thumbs.db" />
+    <None Include="bin\Debug\Theme\Mike\abac___0.TTF" />
+    <None Include="bin\Debug\Theme\Mike\config.ini" />
+    <None Include="bin\Debug\Theme\Mike\icon.tvix" />
+    <None Include="bin\Debug\Theme\Mike\neutrond.ttf" />
+    <None Include="bin\Debug\Theme\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Theme\Default\icon.tvix" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RootKit\RootKit.csproj">
+      <Project>{73B96D24-8793-42AD-A3E5-BA332895D958}</Project>
+      <Name>RootKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EzTvix.Provider\EzTvix.Provider.csproj">
+      <Project>{D16BE31C-7578-456B-83BD-1AAB1DAB6F52}</Project>
+      <Name>EzTvix.Provider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageListView\ImageListView.csproj">
+      <Project>{0C295FB8-C6C6-4A40-9F19-05A43F353A04}</Project>
+      <Name>ImageListView</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kcmdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\kcmdf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blockdevice.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blockdevice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\MikeSimpson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tools\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ThemeBuilder.resx">
+      <DependentUpon>ThemeBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme\Default.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Default.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Theme\Mike\FolderBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Theme\Mike\FolderBack200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\Default\ItemBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\Empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\Default\AudioBox.png" />
+    <EmbeddedResource Include="Theme\Default\BackgroundEmpty.png" />
+    <EmbeddedResource Include="Theme\Default\Folder.png" />
+    <EmbeddedResource Include="Theme\Default\Tvix720.jpg" />
+    <EmbeddedResource Include="Theme\Default\VideoBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Theme\Default\Audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Players.xml" />
+    <Content Include="bin\Debug\Theme\AquaxmlImage.xml" />
+    <Content Include="bin\Debug\Theme\Aqua\Audio.png" />
+    <Content Include="bin\Debug\Theme\Aqua\audiobox.png" />
+    <Content Include="bin\Debug\Theme\Aqua\audiobox120.png" />
+    <Content Include="bin\Debug\Theme\Aqua\audiocover.png" />
+    <Content Include="bin\Debug\Theme\Aqua\Background.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\Config.xml" />
+    <Content Include="bin\Debug\Theme\Aqua\dossier.png" />
+    <Content Include="bin\Debug\Theme\Aqua\flag.png" />
+    <Content Include="bin\Debug\Theme\Aqua\folder.png" />
+    <Content Include="bin\Debug\Theme\Aqua\folder100.png" />
+    <Content Include="bin\Debug\Theme\Aqua\fondfilm.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\fondfilm120.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\fondfilm720.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\ItemBack.png" />
+    <Content Include="bin\Debug\Theme\Aqua\preview.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\seriebox.png" />
+    <Content Include="bin\Debug\Theme\Aqua\seriebox120.png" />
+    <Content Include="bin\Debug\Theme\Aqua\tvix.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\tvix120.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\tvix720.jpg" />
+    <Content Include="bin\Debug\Theme\Aqua\upfolder.png" />
+    <Content Include="bin\Debug\Theme\Aqua\upfolder100.png" />
+    <Content Include="bin\Debug\Theme\Aqua\upfolder120.png" />
+    <Content Include="bin\Debug\Theme\Aqua\upfolder138.png" />
+    <Content Include="bin\Debug\Theme\Aqua\videobox.png" />
+    <Content Include="bin\Debug\Theme\Aqua\videobox120.png" />
+    <Content Include="bin\Debug\Theme\Aqua\videocover.png" />
+    <Content Include="bin\Debug\Theme\Bluray\audiobox.png" />
+    <Content Include="bin\Debug\Theme\Bluray\audiobox120.png" />
+    <Content Include="bin\Debug\Theme\Bluray\audiocover.png" />
+    <Content Include="bin\Debug\Theme\Bluray\Background.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\cd1.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd2.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd3.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd4.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd5.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd6.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd7.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd8.png" />
+    <Content Include="bin\Debug\Theme\Bluray\cd9.png" />
+    <Content Include="bin\Debug\Theme\Bluray\Config.xml" />
+    <Content Include="bin\Debug\Theme\Bluray\dossier.png" />
+    <Content Include="bin\Debug\Theme\Bluray\folder.png" />
+    <Content Include="bin\Debug\Theme\Bluray\folder100.png" />
+    <Content Include="bin\Debug\Theme\Bluray\fondfilm.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\fondfilm120.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\fondfilm720.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\fondfilm_star_grey.png" />
+    <Content Include="bin\Debug\Theme\Bluray\fondfilm_star_yellow.png" />
+    <Content Include="bin\Debug\Theme\Bluray\HD.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\appli.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\audio.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\firmware.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\photo.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\retour.png" />
+    <Content Include="bin\Debug\Theme\Bluray\icones\video.png" />
+    <Content Include="bin\Debug\Theme\Bluray\ItemBack.png" />
+    <Content Include="bin\Debug\Theme\Bluray\preview.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\seriebox.png" />
+    <Content Include="bin\Debug\Theme\Bluray\seriebox120.png" />
+    <Content Include="bin\Debug\Theme\Bluray\star_grey.png" />
+    <Content Include="bin\Debug\Theme\Bluray\star_yellow.png" />
+    <Content Include="bin\Debug\Theme\Bluray\tvix.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\tvix120.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\tvix720.jpg" />
+    <Content Include="bin\Debug\Theme\Bluray\upfolder.png" />
+    <Content Include="bin\Debug\Theme\Bluray\upfolder100.png" />
+    <Content Include="bin\Debug\Theme\Bluray\upfolder120.png" />
+    <Content Include="bin\Debug\Theme\Bluray\upfolder138.png" />
+    <Content Include="bin\Debug\Theme\Bluray\Video quality\HD 1080.png" />
+    <Content Include="bin\Debug\Theme\Bluray\Video quality\HD 720.png" />
+    <Content Include="bin\Debug\Theme\Bluray\videobox.png" />
+    <Content Include="bin\Debug\Theme\Bluray\videobox120.png" />
+    <Content Include="bin\Debug\Theme\Bluray\videocover.png" />
+    <Content Include="bin\Debug\Theme\Bubble\audiobox.png" />
+    <Content Include="bin\Debug\Theme\Bubble\audiobox120.png" />
+    <Content Include="bin\Debug\Theme\Bubble\audiocover.png" />
+    <Content Include="bin\Debug\Theme\Bubble\Background.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\Config.xml" />
+    <Content Include="bin\Debug\Theme\Bubble\dossier.png" />
+    <Content Include="bin\Debug\Theme\Bubble\flag.png" />
+    <Content Include="bin\Debug\Theme\Bubble\folder.png" />
+    <Content Include="bin\Debug\Theme\Bubble\folder100.png" />
+    <Content Include="bin\Debug\Theme\Bubble\fondfilm.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\fondfilm120.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\fondfilm720.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\ItemBack.png" />
+    <Content Include="bin\Debug\Theme\Bubble\preview.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\seriebox.png" />
+    <Content Include="bin\Debug\Theme\Bubble\seriebox120.png" />
+    <Content Include="bin\Debug\Theme\Bubble\tvix.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\tvix120.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\tvix720.jpg" />
+    <Content Include="bin\Debug\Theme\Bubble\upfolder.png" />
+    <Content Include="bin\Debug\Theme\Bubble\upfolder100.png" />
+    <Content Include="bin\Debug\Theme\Bubble\upfolder120.png" />
+    <Content Include="bin\Debug\Theme\Bubble\upfolder138.png" />
+    <Content Include="bin\Debug\Theme\Bubble\videobox.png" />
+    <Content Include="bin\Debug\Theme\Bubble\videobox120.png" />
+    <Content Include="bin\Debug\Theme\Bubble\videocover.png" />
+    <Content Include="bin\Debug\Theme\folder.ico" />
+    <Content Include="bin\Debug\Theme\Hydro\audiobox.png" />
+    <Content Include="bin\Debug\Theme\Hydro\audiobox120.png" />
+    <Content Include="bin\Debug\Theme\Hydro\audiocover.png" />
+    <Content Include="bin\Debug\Theme\Hydro\Config.xml" />
+    <Content Include="bin\Debug\Theme\Hydro\dossier.png" />
+    <Content Include="bin\Debug\Theme\Hydro\flag.png" />
+    <Content Include="bin\Debug\Theme\Hydro\folder.png" />
+    <Content Include="bin\Debug\Theme\Hydro\folder100.png" />
+    <Content Include="bin\Debug\Theme\Hydro\fondfilm.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\fondfilm120.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\fondfilm720.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\preview.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\seriebox.png" />
+    <Content Include="bin\Debug\Theme\Hydro\seriebox120.png" />
+    <Content Include="bin\Debug\Theme\Hydro\tvix.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\tvix120.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\tvix720.jpg" />
+    <Content Include="bin\Debug\Theme\Hydro\upfolder.png" />
+    <Content Include="bin\Debug\Theme\Hydro\upfolder100.png" />
+    <Content Include="bin\Debug\Theme\Hydro\upfolder120.png" />
+    <Content Include="bin\Debug\Theme\Hydro\upfolder138.png" />
+    <Content Include="bin\Debug\Theme\Hydro\videobox.png" />
+    <Content Include="bin\Debug\Theme\Hydro\videobox120.png" />
+    <Content Include="bin\Debug\Theme\Hydro\videocover.png" />
+    <Content Include="bin\Debug\Theme\IconDetails.aspx" />
+    <Content Include="bin\Debug\Theme\Mike\16-video-square.png" />
+    <Content Include="bin\Debug\Theme\Mike\Alpha.png" />
+    <Content Include="bin\Debug\Theme\Mike\audio.png" />
+    <Content Include="bin\Debug\Theme\Mike\audiobox.png" />
+    <Content Include="bin\Debug\Theme\Mike\audiobox120.png" />
+    <Content Include="bin\Debug\Theme\Mike\audiocover.png" />
+    <Content Include="bin\Debug\Theme\Mike\Background.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\Config.xml" />
+    <Content Include="bin\Debug\Theme\Mike\Divx.png" />
+    <Content Include="bin\Debug\Theme\Mike\dossier.png" />
+    <Content Include="bin\Debug\Theme\Mike\Empty.png" />
+    <Content Include="bin\Debug\Theme\Mike\EmptyBackground.png" />
+    <Content Include="bin\Debug\Theme\Mike\folder Audio.png" />
+    <Content Include="bin\Debug\Theme\Mike\folder.png" />
+    <Content Include="bin\Debug\Theme\Mike\folder100.png" />
+    <Content Include="bin\Debug\Theme\Mike\FolderPhoto.png" />
+    <Content Include="bin\Debug\Theme\Mike\FolderVideo.png" />
+    <Content Include="bin\Debug\Theme\Mike\fondfilm.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\fondfilm120.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\fondfilm720.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\musiccover.png" />
+    <Content Include="bin\Debug\Theme\Mike\musiccover100.png" />
+    <Content Include="bin\Debug\Theme\Mike\preview.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\seriebox.png" />
+    <Content Include="bin\Debug\Theme\Mike\seriebox120.png" />
+    <Content Include="bin\Debug\Theme\Mike\tvix.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\tvix120.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\tvix256.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\tvix720.jpg" />
+    <Content Include="bin\Debug\Theme\Mike\upfolder.png" />
+    <Content Include="bin\Debug\Theme\Mike\upfolder100.png" />
+    <Content Include="bin\Debug\Theme\Mike\upfolder120.png" />
+    <Content Include="bin\Debug\Theme\Mike\upfolder138.png" />
+    <Content Include="bin\Debug\Theme\Mike\upfolder200.png" />
+    <Content Include="bin\Debug\Theme\Mike\video2.png" />
+    <Content Include="bin\Debug\Theme\Mike\videobox - Copie.png" />
+    <Content Include="bin\Debug\Theme\Mike\videobox.png" />
+    <Content Include="bin\Debug\Theme\Mike\videobox120.png" />
+    <Content Include="bin\Debug\Theme\Mike\videobox2.png" />
+    <Content Include="bin\Debug\Theme\Mike\videocover.png" />
+    <Content Include="bin\Debug\Theme\Mike\videocover100.png" />
+    <Content Include="bin\Debug\Theme\Mike\videocover2.png" />
+    <Content Include="bin\Debug\Theme\Mike\videocover200.png" />
+    <Content Include="bin\Debug\Theme\movie.ico" />
+    <Content Include="bin\Debug\Theme\Music.ico" />
+    <Content Include="bin\Debug\Theme\Picture.ico" />
+    <Content Include="bin\Debug\Theme\series_info.png" />
+    <None Include="bin\Debug\Theme\TB2.ico" />
+    <Content Include="bin\Debug\Theme\ThemeBuilder1.ico" />
+    <Content Include="bin\Debug\Theme\ThemeBuilder2.ico" />
+    <Content Include="bin\Debug\Theme\ThemeBuilder3.ico" />
+    <Content Include="bin\Debug\Theme\ThemeBuilder4.ico" />
+    <Content Include="bin\Debug\Theme\xmlImage.xml" />
+    <Content Include="Ez.ico" />
+    <Content Include="movie.ico" />
+    <Content Include="Resources\folder.ico" />
+    <Content Include="Resources\Font.ico" />
+    <Content Include="Resources\icnVideoSquare.png" />
+    <Content Include="Resources\icnPicture.ico" />
+    <EmbeddedResource Include="Resources\Icons\Ez.ico" />
+    <EmbeddedResource Include="Resources\Icons\Ez_Red.ico" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_016.png" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_032.png" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_048.png" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_128.png" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_256.png" />
+    <EmbeddedResource Include="Resources\Logo\Alpha_512.png" />
+    <Content Include="Resources\Icons\Settings.ico" />
+    <Content Include="Resources\Icons\SettingsRed.ico" />
+    <Content Include="Resources\Icons\TB.ico" />
+    <Content Include="Resources\Icons\TB2.ico" />
+    <Content Include="Resources\Icons\TB3.ico" />
+    <Content Include="Resources\Logo\v01_016.png" />
+    <Content Include="Resources\Logo\v01_032.png" />
+    <Content Include="Resources\Logo\v01_048.png" />
+    <Content Include="Resources\Logo\v01_128.png" />
+    <Content Include="Resources\Logo\v01_256.png" />
+    <Content Include="Resources\Logo\v01_512.png" />
+    <Content Include="Resources\Logo\v02_128.png" />
+    <Content Include="Resources\Movie.ico" />
+    <Content Include="Resources\Music.ico" />
+    <Content Include="Resources\ThemeBuilder1.ico" />
+    <Content Include="Resources\ThemeBuilder2.ico" />
+    <Content Include="Resources\ThemeBuilder4.ico" />
+    <Content Include="ThemeBuilder2.ico" />
+    <Content Include="Theme\Alpha.png" />
+    <EmbeddedResource Include="Theme\Picto\action.png" />
+    <EmbeddedResource Include="Theme\Picto\animes.png" />
+    <EmbeddedResource Include="Theme\Picto\appli.png" />
+    <EmbeddedResource Include="Theme\Picto\attendus.png" />
+    <EmbeddedResource Include="Theme\Picto\audio.png" />
+    <EmbeddedResource Include="Theme\Picto\aventure.png" />
+    <EmbeddedResource Include="Theme\Picto\bluray.png" />
+    <EmbeddedResource Include="Theme\Picto\catastrophe.png" />
+    <EmbeddedResource Include="Theme\Default\Background_old.jpg" />
+    <CodeAnalysisDictionary Include="Theme\CD\cd1.png" />
+    <EmbeddedResource Include="Theme\CD\cd2.png" />
+    <EmbeddedResource Include="Theme\CD\cd3.png" />
+    <EmbeddedResource Include="Theme\CD\cd4.png" />
+    <EmbeddedResource Include="Theme\CD\cd5.png" />
+    <EmbeddedResource Include="Theme\CD\cd6.png" />
+    <EmbeddedResource Include="Theme\CD\cd7.png" />
+    <EmbeddedResource Include="Theme\CD\cd8.png" />
+    <EmbeddedResource Include="Theme\CD\cd9.png" />
+    <EmbeddedResource Include="Theme\Default\FolderSeries.png" />
+    <EmbeddedResource Include="Theme\Default\FolderSpectacle.png" />
+    <EmbeddedResource Include="Theme\Default\StarGrey.png" />
+    <EmbeddedResource Include="Theme\Default\StarYellow.png" />
+    <EmbeddedResource Include="Theme\Default\BackgroundVideo.jpg" />
+    <EmbeddedResource Include="Theme\Default\DemoCover.png" />
+    <EmbeddedResource Include="Theme\Default\Empty.xml" />
+    <EmbeddedResource Include="Theme\Default\Background.jpg" />
+    <Content Include="Theme\Picto\classique.png" />
+    <EmbeddedResource Include="Theme\Picto\comedie.png" />
+    <EmbeddedResource Include="Theme\Picto\culte.png" />
+    <EmbeddedResource Include="Theme\Picto\divx.png" />
+    <Content Include="Theme\Picto\docs.png" />
+    <EmbeddedResource Include="Theme\Picto\drame.png" />
+    <EmbeddedResource Include="Theme\Picto\dtv_rec.png" />
+    <EmbeddedResource Include="Theme\Picto\dvd.png" />
+    <EmbeddedResource Include="Theme\Picto\fantastique.png" />
+    <EmbeddedResource Include="Theme\Picto\fichiers.png" />
+    <EmbeddedResource Include="Theme\Picto\film.png" />
+    <EmbeddedResource Include="Theme\Picto\firmware.png" />
+    <EmbeddedResource Include="Theme\Picto\guerre.png" />
+    <EmbeddedResource Include="Theme\Picto\hd.png" />
+    <EmbeddedResource Include="Theme\Picto\historique.png" />
+    <EmbeddedResource Include="Theme\Picto\horreur.png" />
+    <EmbeddedResource Include="Theme\Picto\japanime.png" />
+    <EmbeddedResource Include="Theme\Picto\musique.png" />
+    <EmbeddedResource Include="Theme\Picto\photo.png" />
+    <EmbeddedResource Include="Theme\Picto\policier.png" />
+    <EmbeddedResource Include="Theme\Picto\retour.png" />
+    <EmbeddedResource Include="Theme\Picto\romance.png" />
+    <Content Include="Theme\Picto\scifi.png" />
+    <EmbeddedResource Include="Theme\Picto\series.png" />
+    <EmbeddedResource Include="Theme\Picto\sorties cine.png" />
+    <EmbeddedResource Include="Theme\Picto\spectacle.png" />
+    <EmbeddedResource Include="Theme\Picto\sport.png" />
+    <EmbeddedResource Include="Theme\Picto\sympa.png" />
+    <EmbeddedResource Include="Theme\Picto\thiller.png" />
+    <EmbeddedResource Include="Theme\Picto\video.png" />
+    <EmbeddedResource Include="Theme\Picto\vu.png" />
+    <EmbeddedResource Include="Theme\Picto\xxx.png" />
+    <EmbeddedResource Include="Theme\Default\FolderDvd.png" />
+    <EmbeddedResource Include="Theme\Default\FolderDocs.png" />
+    <EmbeddedResource Include="Theme\Default\FolderAdventure.png" />
+    <EmbeddedResource Include="Theme\Default\FolderDivx.png" />
+    <EmbeddedResource Include="Theme\Default\FolderFirmware.png" />
+    <EmbeddedResource Include="Theme\Default\FolderHD.png" />
+    <EmbeddedResource Include="Theme\Default\VideoCover.png" />
+    <EmbeddedResource Include="Theme\Default\Config.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme\Default\FolderAudio.png" />
+    <EmbeddedResource Include="Theme\Default\FolderPhoto.png" />
+    <EmbeddedResource Include="Theme\Default\FolderVideo.png" />
+    <EmbeddedResource Include="Theme\Default\AudioCover.png" />
+    <EmbeddedResource Include="Resources\icnVideo.png" />
+    <Content Include="Resources\ThemeBuilder3.ico" />
+    <EmbeddedResource Include="Theme\Default\UpFolder.png" />
+    <EmbeddedResource Include="Theme\Default\Tvix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

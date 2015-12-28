@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Theme name="BBT-XT">
+  <Item name="Background">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="VideoBox">
+    <Mask x="29" y="5" width="142" height="190" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="160" width="200" height="40" />
+  </Item>
+  <Item name="AudioBox">
+    <Mask x="24" y="0" width="170" height="178" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="ItemBack">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="Folder">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="160" width="200" height="40" />
+  </Item>
+  <Item name="UpFolder">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="Audio">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="AudioCover">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="VideoCover">
+    <Mask x="29" y="5" width="142" height="190" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderAudio">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderPhoto">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderVideo">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderAdventure">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDivx">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDocs">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDvd">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderHD">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderSeries">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderSpectacle">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="StarGrey">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="StarYellow">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="BackgroundVideo">
+    <Layer name="BaseImage">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Fanart">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Cover">
+      <Mask x="73" y="258" width="262" height="346" />
+    </Layer>
+    <Layer name="Box">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Title">
+      <Text family="Segoe UI" size="24,75" bold="True" italic="False" color="White" />
+      <TextZone x="350" y="335" width="897" height="45" />
+      <TextSample>Arthur et la vengeance de Maltazard</TextSample>
+    </Layer>
+    <Layer name="Plot">
+      <Text family="Segoe UI" size="14,25" bold="False" italic="False" color="White" />
+      <TextZone x="350" y="390" width="600" height="260" />
+      <TextSample>Arthur est au comble de l'excitation : c'est aujourd'hui la fin du dixième cycle de la Lune, et il va enfin pouvoir regagner le monde des Minimoys pour y retrouver Sélénia. Dans le village, tout est prêt pour l'accueillir : un grand banquet a été organisé en son honneur, et la petite princesse a passé sa robe en pétales de rose... C'est sans compter le père d'Arthur, qui choisit précisément ce jour tant attendu pour quitter plus tôt que prévu la maison de sa grand-mère. Au moment du départ, une araignée dépose dans les mains du jeune garçon un grain de riz sur lequel est gravé un message de détresse. Pas de doute, Sélénia est en danger, et Arthur n'a plus qu'une idée en tête : voler à son secours ! Quitte à employer un passage de fortune, tomber tête la première dans le bar de Max, se heurter aux troupes de Kröb, le nouveau tyran des Sept Terres, secourir Bétamèche, combattre des rats, des grenouilles, des araignées velues... et découvrir, une fois arrivé au village des Mimimoys, qu'aucun message de secours ne lui a été envoyé ! Mais qui donc a bien pu piéger ainsi notre jeune héros ? </TextSample>
+    </Layer>
+    <Layer name="Year">
+      <Text family="Segoe UI" size="15,75" bold="False" italic="False" color="White" />
+      <TextZone x="1055" y="432" width="160" height="35" />
+      <TextSample>2009
+</TextSample>
+    </Layer>
+    <Layer name="Actors">
+      <Text family="Segoe UI" size="14,25" bold="False" italic="False" color="White" />
+      <TextZone x="1055" y="505" width="160" height="180" />
+      <TextSample>Highmore Bétamèche (voix), Highmore Bétamèche (voix), Highmore Bétamèche (voix), Highmore Bétamèche (voix), Highmore Bétamèche (voix), Highmore Bétamèche (voix), Highmore Bétamèche (voix)</TextSample>
+    </Layer>
+    <Layer name="Runtime">
+      <Text family="Segoe UI" size="10" bold="False" italic="False" color="White" />
+      <TextZone x="0" y="1110" width="0" height="0" />
+      <TextSample>
+        1h30
+      </TextSample>
+    </Layer>
+    <Layer name="Genre">
+      <Text family="Segoe UI" size="15,75" bold="False" italic="False" color="White" />
+      <TextZone x="1055" y="395" width="192" height="35" />
+      <TextSample>Animation, 3D</TextSample>
+    </Layer>
+    <Layer name="Rating">
+      <Text family="Segoe UI" size="18" bold="False" italic="False" color="White" />
+      <TextZone x="860" y="655" width="80" height="30" />
+      <TextSample>7,5</TextSample>
+    </Layer>
+    <Layer name="Stars">
+      <Mask x="100" y="4" width="171" height="200" />
+    </Layer>
+    <Layer name="SoundFormat">
+      <Mask x="110" y="4" width="171" height="171" />
+    </Layer>
+    <Layer name="ImageFormat">
+      <Mask x="120" y="4" width="171" height="171" />
+    </Layer>
+    <Layer name="Directors">
+      <Text family="Segoe UI" size="15,75" bold="False" italic="False" color="White" />
+      <TextZone x="1055" y="465" width="190" height="35" />
+      <TextSample>Luc Besson</TextSample>
+    </Layer>
+  </Item>
+</Theme>

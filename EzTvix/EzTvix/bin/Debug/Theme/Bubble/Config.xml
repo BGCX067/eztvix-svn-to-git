@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EzTvix>
+  <Theme>
+    <AudioBox>
+      <Mask x="20" y="5" width="173" height="173"/>
+      <TextZone x="0" y="180" width="200" height="16"/>
+      <Font family="Segoe UI" size="12" bold="true" italic="true" align="center" color="White"/>
+    </AudioBox>
+    <VideoBox>
+      <Mask x="23" y="4" width="127" height="172"/>
+      <TextZone x="0" y="180" width="200" height="20"/>
+      <Font family="Segoe UI" size="14" bold="true" italic="false" align="center" color="White"/>
+    </VideoBox>
+  </Theme>
+</EzTvix>

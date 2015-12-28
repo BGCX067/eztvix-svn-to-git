@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Theme name="Purple">
+  <Item name="Background">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="VideoBox">
+    <Mask x="35" y="10" width="130" height="175" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="AudioBox">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="ItemBack">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="Folder">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="UpFolder">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="Audio">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="AudioCover">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="VideoCover">
+    <Mask x="35" y="10" width="130" height="175" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderAudio">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderPhoto">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderVideo">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderAdventure">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDivx">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDocs">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderDvd">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderHD">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderSeries">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="FolderSpectacle">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="StarGrey">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="StarYellow">
+    <Mask x="0" y="0" width="200" height="200" />
+    <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+    <TextZone x="0" y="0" width="0" height="0" />
+  </Item>
+  <Item name="BackgroundVideo">
+    <Layer name="BaseImage">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Fanart">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Cover">
+      <Mask x="70" y="220" width="300" height="400" />
+    </Layer>
+    <Layer name="Box">
+      <Mask x="0" y="212" width="440" height="440" />
+    </Layer>
+    <Layer name="Title">
+      <Text family="Segoe UI" size="24" bold="True" italic="True" color="Red" />
+      <TextZone x="420" y="220" width="650" height="50" />
+      <TextSample>Avatar</TextSample>
+    </Layer>
+    <Layer name="Plot">
+      <Text family="Segoe UI" size="15,75" bold="False" italic="False" color="White" />
+      <TextZone x="420" y="330" width="815" height="250" />
+      <TextSample>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</TextSample>
+    </Layer>
+    <Layer name="Year">
+      <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+      <TextZone x="680" y="590" width="120" height="30" />
+      <TextSample>2009</TextSample>
+    </Layer>
+    <Layer name="Actors">
+      <Text family="Segoe UI" size="15,75" bold="False" italic="False" color="White" />
+      <TextZone x="420" y="289" width="670" height="30" />
+      <TextSample>Casting : Will Smith, Charlize Theron</TextSample>
+    </Layer>
+    <Layer name="Runtime">
+      <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+      <TextZone x="0" y="0" width="100" height="30" />
+      <TextSample>
+      </TextSample>
+    </Layer>
+    <Layer name="Genre">
+      <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+      <TextZone x="420" y="590" width="250" height="40" />
+      <TextSample>Film Fantastique</TextSample>
+    </Layer>
+    <Layer name="Rating">
+      <Text family="Segoe UI" size="20" bold="False" italic="False" color="White" />
+      <TextZone x="1140" y="227" width="100" height="30" />
+      <TextSample>10/10</TextSample>
+    </Layer>
+    <Layer name="Stars">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="SoundFormat">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="ImageFormat">
+      <Mask x="0" y="0" width="1280" height="720" />
+    </Layer>
+    <Layer name="Directors">
+      <Text family="Segoe UI" size="18" bold="False" italic="False" color="White" />
+      <TextZone x="420" y="260" width="650" height="40" />
+      <TextSample>Réalisateur : Steven Spielberg</TextSample>
+    </Layer>
+  </Item>
+</Theme>

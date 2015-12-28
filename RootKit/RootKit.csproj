@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73B96D24-8793-42AD-A3E5-BA332895D958}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RootKit</RootNamespace>
+    <AssemblyName>RootKit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Shell32, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\Raccoom\Raccoom.TreeViewFolderBrowser.DataProviders\bin\Debug\Interop.Shell32.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\Providers\Allocine.cs" />
+    <Compile Include="API\Movie.cs" />
+    <Compile Include="API\Actor.cs" />
+    <Compile Include="API\MovieList.cs" />
+    <Compile Include="API\Movies.cs" />
+    <Compile Include="API\Providers\iProvider.cs" />
+    <Compile Include="API\MoviePicture.cs" />
+    <Compile Include="API\Providers\PassionXbmc.cs" />
+    <Compile Include="API\Providers\PassionXBMCThreaded.cs" />
+    <Compile Include="API\Providers\MovieProvider.cs" />
+    <Compile Include="API\Providers\ProviderWorker.cs" />
+    <Compile Include="API\Providers\TheTVDB.cs" />
+    <Compile Include="API\Rating.cs" />
+    <Compile Include="Controls\CollapsideSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\Converter.cs" />
+    <Compile Include="Core\Extensions\Extensions.cs" />
+    <Compile Include="Core\Extensions\Lists.cs" />
+    <Compile Include="Core\Extensions\Strings.cs" />
+    <Compile Include="Core\RegistryInfo.cs" />
+    <Compile Include="Core\StartStop.cs" />
+    <Compile Include="Drawings\BasicFilters\BasicFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\BlackAndWhiteFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\BoxFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\DropShadowFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\FisheyeFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\FloorReflectionFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\IFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\ImageWatermarkFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\Pipeline.cs" />
+    <Compile Include="Drawings\BasicFilters\PolaroidFrameFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\ResizeFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\RotateFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\RoundedCorners.cs" />
+    <Compile Include="Drawings\BasicFilters\SkewFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\TextWatermarkFilter.cs" />
+    <Compile Include="Drawings\BasicFilters\WaterMarkFilter.cs" />
+    <Compile Include="Drawings\ImageLayer.cs" />
+    <Compile Include="Drawings\ImageManager.cs" />
+    <Compile Include="Drawings\Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AeroGlassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IO\FastDirectoryInfo.cs" />
+    <Compile Include="IO\FileData.cs" />
+    <Compile Include="IO\WIN32_FIND_DATA.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\DownloadManager.cs" />
+    <Compile Include="Win32\Logicaldisk.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Win32\Shell32Namespaces.cs" />
+    <Compile Include="Win32\SystemImageList.cs" />
+    <Compile Include="Windows\Forms\Design\FlagsEditor.cs" />
+    <Compile Include="Windows\Forms\GenericCommandLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\GenericCommandLink.Designer.cs">
+      <DependentUpon>GenericCommandLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\TreeViewFolderBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\TreeViewFolderBrowserDataProvider.cs" />
+    <Compile Include="Windows\Forms\TreeViewFolderBrowserDataProviderShell32.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Component\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Drawings\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blockdevice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\IconTest.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Drawings\Images\Alpha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Ez.ico" />
+    <EmbeddedResource Include="Resources\Ez_Red.ico" />
+    <EmbeddedResource Include="Resources\TB.ico" />
+    <EmbeddedResource Include="Resources\TB2.ico" />
+    <EmbeddedResource Include="Resources\TB3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\arrow_right_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="API\Providers\ProviderWorker.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
